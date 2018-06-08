@@ -1,0 +1,31 @@
+Course: COL333(Autumn'17): Artificial Intelligence
+Assignment 1: 3D Tic-Tac-Toe
+Creators: 2015TT10917, Navreet Kaur
+	  2015CS10207, Aditya Sahdev
+
+- - - - - - - - 3D Tic-Tac-Toe game with AI - - - - - - - - 
+
+Files:
+
+1)main.java: 
+Run this file to play the game. This class contains the main function and works as the main script, creating object for the magic_cube class and ttt class. The user is first asked if they want to play first and is then required to choose from the following options as the winning strategy:
+	(a) one collinear line
+	(b) two collinear lines
+	(c) who so ever gets more lines than its opponent after the 20th move
+
+2) ttt.java:
+This class governs all the actions computer takes to interact with the user and chooses the next move while utilising magic_cube as the 3D cube on which the game is played.
+
+
+3)magic_cube.java:
+This class uses the concept of a magic cube to implement an algorithm to create a 3D Magic Cube of 11 surfaces. It also implements some collinearity conditions to generate the three essential lists based on sum and collinearity. 
+
+
+4)Tuple.java:
+The Tuple class is a way of storing a set of three integers as a tuple object, which is used in the magic_cube.
+
+
+Compilation Instructions:
+
+javac *.java
+java main
